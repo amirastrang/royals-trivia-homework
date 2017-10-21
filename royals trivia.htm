@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)file:///private/var/empty/Downloads/trivia-game-master/royals%20trivia.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Triva Game</title>
+	<!-- CSS Files -->
+	<link rel="stylesheet" type="text/css" href="./royals trivia_files/reset.css">
+	<link rel="stylesheet" type="text/css" href="./royals trivia_files/style.css">
+</head>
+<body>
+	<header id="masthead">
+		<div class="container">
+			<h1>? Riddle Me Royals?</h1>
+		</div>
+	</header>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1 class="rules">The Rules</h1>
+			<p class="rules">There are 5 questions, you have 45 seconds to answer all 5 questions.</p>
+			<h2>
+				<button type="button" id="start-button">Start</button>
+			</h2>
+			<!-- timer will be displayed in div#show-number-->
+			<div id="show-number"></div>
+			<!-- question 1 -->
+			<p class="question">1. what year was the Royals first World Series win?</p>
+			<ul class="answers">
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">1982</label><br>
+			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">1977</label><br>
+			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">1997</label><br>
+			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">1985</label><br>
+			</ul>
+			<!-- question 2 -->
+			<p class="question">2. Which Player played the most seasons foe the Royals?</p>
+			<ul class="answers">
+			<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">David Cone</label><br>
+			<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">Frank White</label><br>
+			<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">George Brett</label><br>
+			<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">Willie Nelson</label><br>
+			</ul>
+			<!-- question 3 -->
+			<p class="question">3. Who Managed the Royals to their 1985 WS victory?</p>
+			<ul class="answers">
+			<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Willie Wilson</label><br>
+			<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">Steve Jobs</label><br>
+			<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">Dick Howser</label><br>
+			<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">Dayton Moore</label><br>
+			</ul>
+			<!-- question 4 -->
+			<p class="question">4. What Year did the Royals go to the WS and not win it?</p>
+			<ul class="answers">
+			<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">2017</label><br>
+			<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">2015</label><br>
+			<input type="radio" name="q4" value="c" id="q4c"><label for="q4c">1980</label><br>
+			<input type="radio" name="q4" value="d" id="q4d"><label for="q4d">1982</label><br>
+			</ul>
+			<!-- question 5 -->
+			<p class="question">5. The Royals mascot is?</p>
+			<ul class="answers">
+			<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">a Lion</label><br>
+			<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">Tony the Tiger</label><br>
+			<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">an Elephant</label><br>
+			<input type="radio" name="q5" value="d" id="q5d"><label for="q5d">a king</label><br>
+			</ul>
+			<!-- Hidden Buttons and Elements -->
+			<!-- Submit Button -->
+			<button type="button" id="submit">Submit Final Answers</button>
+			<!-- Results -->
+			<div id="results">
+			Show me the answers!
+				<!-- <div id="category1">
+				<p><strong>Question 1:</strong> The correct answer is the <strong>Answer 1</strong>.</p>
+				</div> -->
+			</div>
+			<button type="button" id="restart">Play Again</button>
+		</section>
+	</div>
+	<footer id="footer" class="site-footer">
+		<div class="container">
+			© Copyright 2017 Amira Strang
+		</div>
+	</footer>
+	<!-- JavaScript File & jQuery Lib -->
+	<script type="text/javascript" src="./royals trivia_files/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="./royals trivia_files/app.js"></script>
+	<script type="text/javascript" src="file:///js/questions.js"></script>
+
+</body></html>
